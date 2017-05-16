@@ -1,0 +1,16 @@
+[
+  {
+    "tab"       : "General",
+    "key"       : "customcss.use_styles",
+    "label"     : "Aktivate eigenes CSS",
+    "type"      : "checkbox",
+    "default"   : "true"
+  },
+  {
+    "tab"       : "General",
+    "key"       : "customcss.styles",
+    "label"     : "Eigenes CSS zum Überschreiben",
+    "type"      : "text",
+    "default"   : "h1 {color: #ff0000 !important;}"
+  }
+]
