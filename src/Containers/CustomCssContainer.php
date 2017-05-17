@@ -3,7 +3,7 @@ namespace CustomCss\Containers;
 
 use Plenty\Plugin\Templates\Twig;
 
-class CustomCssStyles
+class CustomCssContainer
 {
     public function call(Twig $twig):string
     {
