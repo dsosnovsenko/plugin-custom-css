@@ -4,17 +4,23 @@
   "namespace"         : "CustomCss",
   "author"            : "Dmitrij Sosnovsenko, PlatinPower GmbH",
   "type"              : "template",
-  "version"           : "1.0.1e",
+  "version"           : "1.0.1f",
   "license"           : "PlatinPower GmbH",
   "email"             : "d.sosnovsenko@platinpower.com",
   "phone"             : "0800 ",
   "serviceProvider"   : "CustomCss\\Providers\\CustomCssServiceProvider",
-  "containers"        : [],
   "dataProviders"     : [
     {
       "key"           :"CustomCss\\Containers\\CustomCssStyles",
       "name"          :"Custom CSS styles",
       "description"   :"Include custom CSS styles"
+    }
+  ],
+  "containers"        : [
+    {
+      "key"           : "CustomCss.Style",
+      "name"          : "CustomCss: Style",
+      "description"   : "Add custom style to Ceres."
     }
   ],
   "javaScriptFiles"   : [],
