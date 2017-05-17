@@ -1,12 +1,12 @@
 {
-  "defaultEntryPoint": "index.html",
+  "defaultEntryPoint": "index.php",
   "namespace": "CustomCss",
   "menuEntries": [
     {
       "label": "Custom CSS",
       "menu": "start",
       "urlKey": "custom-css",
-      "entryPoint": "index.html"
+      "entryPoint": "index.php"
     }
   ]
 }
