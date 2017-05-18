@@ -29,4 +29,9 @@ class CustomCssServiceProvider extends ServiceProvider
 
         }, self::EVENT_LISTENER_PRIORITY);
     }
+
+    public function call(Twig $twig):string
+    {
+        return $twig->render('CustomCss::content.CustomCssStyles');
+    }
 }
